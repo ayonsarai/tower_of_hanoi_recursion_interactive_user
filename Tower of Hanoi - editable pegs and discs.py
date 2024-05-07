@@ -3,14 +3,6 @@
 # CS 240 Data Structures and Algorithms
 # Miterm Project - Tower of Hanoi - recursive editable pegs and discs 
 
-# The Tower of Hanoi is a mathematical game or puzzle that consists of three rods and a number of disks of different sizes which can slide onto any rod.
-# The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape. 
-
-# The objective of the puzzle is to move the entire stack to another rod, obeying the following rules:
-# 1. Only one disk can be moved at a time.
-# 2. Each move consists of taking the top disk from one of the stacks and placing it on top of another stack.
-# 3. No disk may be placed on top of a smaller disk.
-
 
 def tower_of_hanoi_recursive(num_disks, source_rod, target_rod, auxiliary_rods, pegs):
     if num_disks == 0:
