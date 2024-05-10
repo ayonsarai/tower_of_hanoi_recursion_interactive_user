@@ -1,7 +1,7 @@
 # Sarai Ayon
 # 5/7/2024
 # CS 240 Data Structures and Algorithms
-# Miterm Project - Tower of Hanoi - recursive editable pegs and discs 
+# Miterm Project - Tower of Hanoi - recursion editable pegs and discs 
 
 
 def tower_of_hanoi_recursive(num_disks, source_rod, target_rod, auxiliary_rods, pegs):
